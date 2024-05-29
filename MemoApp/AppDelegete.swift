@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct MemoAppApp: App {
+struct Memo: App {
     var body: some Scene {
         WindowGroup {
-            Income()
+            ContentsView()
         }
     }
 }

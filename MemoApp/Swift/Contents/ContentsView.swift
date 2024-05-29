@@ -14,14 +14,14 @@ struct ContentsView: View {
                             .cornerRadius(10)
                             .padding(.bottom, 50)
                     }
-//                    NavigationLink(destination: Outcome()) {
-//                        Text("支出")
-//                            .frame(width: 300, height: 70)
-//                            .font(.system(size: 40))
-//                            .background(Color.green)
-//                            .cornerRadius(10)
-//                            .padding(.bottom, 50)
-//                    }
+                    NavigationLink(destination: Outcome().navigationBarHidden(true)) {
+                        Text("支出")
+                            .frame(width: 300, height: 70)
+                            .font(.system(size: 40))
+                            .background(Color.green)
+                            .cornerRadius(10)
+                            .padding(.bottom, 50)
+                    }
 //                    NavigationLink(destination: HowTo()) {
 //                        Text("使い方")
 //                            .frame(width: 300, height: 70)

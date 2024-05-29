@@ -13,6 +13,7 @@
 		30AEE49E2BF1FDCE00CF262D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AEE49D2BF1FDCE00CF262D /* Assets.xcassets */; };
 		30AEE4A22BF1FDCE00CF262D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AEE4A12BF1FDCE00CF262D /* Preview Assets.xcassets */; };
 		30D0465B2C05AAB7002D4061 /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0465A2C05AAB7002D4061 /* Income.swift */; };
+		30D0465E2C05CA27002D4061 /* Outcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0465D2C05CA27002D4061 /* Outcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		30AEE49F2BF1FDCE00CF262D /* MemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MemoApp.entitlements; sourceTree = "<group>"; };
 		30AEE4A12BF1FDCE00CF262D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30D0465A2C05AAB7002D4061 /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		30D0465D2C05CA27002D4061 /* Outcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 				305FDA8D2BF743980086D1AC /* Splash */,
 				30AEE49B2BF1FDCC00CF262D /* ContentsView.swift */,
 				30D0465A2C05AAB7002D4061 /* Income.swift */,
+				30D0465D2C05CA27002D4061 /* Outcome.swift */,
 			);
 			path = Contents;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D0465E2C05CA27002D4061 /* Outcome.swift in Sources */,
 				305FDA8F2BF743AE0086D1AC /* SplashScreen.swift in Sources */,
 				30AEE49C2BF1FDCC00CF262D /* ContentsView.swift in Sources */,
 				30D0465B2C05AAB7002D4061 /* Income.swift in Sources */,
